@@ -1,13 +1,14 @@
-import React, { Component } from 'react';
+import React, {Component} from "react"
+import UserNameContext from "./UserNmaeContext"
 
 class Header extends Component {
-	render() {
-		return (
-			<header className="light-theme">
-				<h2>Light Theme</h2>
-			</header>
-		);
-	}
+    render() {
+        return (
+            <header>
+                <p>Welcome, {this.context}!</p>
+            </header>
+        )    
+    }
 }
-
-export default Header;
+Header.contextType = UserNameContext
+export default Header

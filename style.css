@@ -1,24 +1,15 @@
 body {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
-
 header {
-	padding: 20px;
+    padding: 20px;
+    background-color: #333333;
+    color: whitesmoke;
 }
 
-button {
-	padding: 10px;
-	border: none;
-	margin: 10px;
+main {
+    padding: 20px;
 }
 
-.dark-theme {
-	background-color: #333333;
-	color: whitesmoke;
-}
 
-.light-theme {
-	background-color: whitesmoke;
-	color: #333333;
-}
